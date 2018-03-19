@@ -200,21 +200,40 @@ If your application crash then follow below steps and you'll get to know where y
        
   Logcat is a command-line tool that dumps a log of system messages, including stack traces when the device throws an error and messages that you have written from your app with the Log class. [Definition by :- https://developer.android.com/studio/command-line/logcat.html ]
          
-#### a) You can find logcat in the bottom of your Android Screen.
+####  a) You can find logcat in the bottom of your Android Screen.
 
 
 ![logcat](https://user-images.githubusercontent.com/25812257/37620112-580c5e1e-2be1-11e8-91b1-32f42b4662f9.PNG)
 
 
-#### b) Click "logcat" and  there u see lot of messages.
+####  b) Click "logcat" and  there u see lot of messages.
 
 ![logcat2](https://user-images.githubusercontent.com/25812257/37625346-8e1b5662-2bf1-11e8-954f-1421c2958318.PNG)
 
 
-#### c) Next step is to filter our logcat to error mode so that we can see only those message which are related to error.Change your logcat from verbose to error mode.
+####  c) Next step is to filter our logcat to error mode so that we can see only those message which are related to error.Change your logcat from verbose to error mode.
 
 
 ![errormode](https://user-images.githubusercontent.com/25812257/37625352-93477846-2bf1-11e8-9128-72374b4d070b.PNG)
+
+
+Now, we'll do practice on the below example. The program  converts two string numbers into integers and then calculating the sum and then printing the result into the textView as you can see the layout.xml.
+
+
+#####  MainActivity.java
+
+![example](https://user-images.githubusercontent.com/25812257/37626546-74bca5ae-2bf6-11e8-8e0f-0050c3c631d8.PNG)
+
+#####  activity_main.xml
+
+![resultlayout](https://user-images.githubusercontent.com/25812257/37626573-9c65761c-2bf6-11e8-8e47-04868a1354c4.PNG)
+
+But when we run the program, our program will crash so we'll open the logcat as we're told above. The logcat for above example looks like :- 
+
+![ssdfg](https://user-images.githubusercontent.com/25812257/37626899-eaf702fe-2bf7-11e8-8700-305b0cd09b23.PNG)
+
+
+
 
 
 
