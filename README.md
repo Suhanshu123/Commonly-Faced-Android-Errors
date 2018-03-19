@@ -198,7 +198,7 @@ If your application crash then follow below steps and you'll get to know where y
 
 ### 1- First checkout your logcat. Don't know about logcat- Not worry just follow the steps:-
        
-  Logcat is a command-line tool that dumps a log of system messages, including stack traces when the device throws an error and messages that you have written from your app with the Log class.
+  Logcat is a command-line tool that dumps a log of system messages, including stack traces when the device throws an error and messages that you have written from your app with the Log class [Definition by https://developer.android.com/studio/command-line/logcat.html ]
          
 #### a) You can find logcat in the bottom of your Android Screen
 
@@ -207,10 +207,17 @@ If your application crash then follow below steps and you'll get to know where y
 
 
 #### b) Click "logcat" and you see there 
-![logcat2](https://user-images.githubusercontent.com/25812257/37620419-2313a1da-2be2-11e8-8805-948c78123686.PNG)
+
+![logcat2](https://user-images.githubusercontent.com/25812257/37625346-8e1b5662-2bf1-11e8-954f-1421c2958318.PNG)
 
 
-![errormode](https://user-images.githubusercontent.com/25812257/37620346-f56bc2a8-2be1-11e8-8bf6-1a9d6960dab0.PNG)
+#### c) 
+
+
+![errormode](https://user-images.githubusercontent.com/25812257/37625352-93477846-2bf1-11e8-9128-72374b4d070b.PNG)
+
+
+
 
 
 
