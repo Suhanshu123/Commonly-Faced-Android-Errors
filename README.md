@@ -232,6 +232,21 @@ But when we run the program, our program will crash so we'll open the logcat as 
 
 ![ssdfg](https://user-images.githubusercontent.com/25812257/37626899-eaf702fe-2bf7-11e8-8700-305b0cd09b23.PNG)
 
+###  Great now you learn how to open logcat. Now question arises how to see logcat.
+
+  We will look after only the highlighted lines in the every logcat...if you see those highlighted lined then you can see that error  is related to "NumbeFormatException"...and also you see "abc" ;with a little knowledge of "NumbeFormatException" you can think that something is related to NumberConversion and also there is something wrong about "abc" ...and you can see that these error occur in the Mainactivity.java. So, we'll move to MainActivity.java
+  
+  
+ #### Mainactivity.java
+ 
+ ![dfs](https://user-images.githubusercontent.com/25812257/37627349-fdf68d78-2bf9-11e8-9a26-8af78b1c1a45.PNG)
+ 
+ 
+ Here you see that, we're not taking integers string for s1 so while parsing that string into integers in creates error.
+ 
+ ###  Sometimes your logcat is not as clear or more complex as compare to this example so in that case we'll copy that lines and paste into google and in many cases first link is of stack-overflow and you will get answer of many questions.
+  
+  
 
 
 
