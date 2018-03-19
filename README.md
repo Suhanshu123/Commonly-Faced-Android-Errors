@@ -189,6 +189,32 @@ Android Studio comes with various tools that can help you analyze the way your a
 
 NullPointerException appears when the method setOnClicklistener() cannot find the View element that you are trying to call this method on. Kindly check if you have written correct View element name in the initialization statement and there are no errors in the XML view.
 
+## 17. How about finding your error by yourself ?
+
+## Solution:-
+
+The best way to learn is by solving your problem by yourself. Here I'll tell you how to proceed when your app crash suddenly.
+If your application crash then follow below steps and you'll get to know where your error comes from :
+
+### 1- First checkout your logcat. Don't know about logcat- Not worry just follow the steps:-
+       
+  Logcat is a command-line tool that dumps a log of system messages, including stack traces when the device throws an error and messages that you have written from your app with the Log class.
+         
+#### a) You can find logcat in the bottom of your Android Screen
+
+
+![logcat](https://user-images.githubusercontent.com/25812257/37620112-580c5e1e-2be1-11e8-91b1-32f42b4662f9.PNG)
+
+
+#### b) Click "logcat" and you see there 
+![logcat2](https://user-images.githubusercontent.com/25812257/37620419-2313a1da-2be2-11e8-8805-948c78123686.PNG)
+
+
+![errormode](https://user-images.githubusercontent.com/25812257/37620346-f56bc2a8-2be1-11e8-8bf6-1a9d6960dab0.PNG)
+
+
+
+
 # Credits
 
 - kartikohri1712 - [GitHub](https://github.com/kartikohri1712)
@@ -196,4 +222,5 @@ NullPointerException appears when the method setOnClicklistener() cannot find th
 - Divya Thakur - [Github](https://github.com/divyathakur24)
 - Ikram Mohammad - [Github](https://github.com/Ikramkhan786)
 - Ojasvi Bhargava -[Github](https://github.com/ojasvibhargava)
+- Suhanshu Patel -[Github](https://github.com/Suhanshu123)
 
